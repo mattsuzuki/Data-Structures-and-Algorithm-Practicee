@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Data Structures and Algorithms</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Practice Data Structures and Algorithms</h1>
+      <h2>Practing DSA's is the only way to get better</h2>
+    </div>
+    <div class="performance">
+      <h3>How to Measure Performance</h3>
+      <code
+        >const nemo = ["nemo"]; <br />const everyone = [ "dory", "bruce",
+        "marline", "nemo", "gill", "bloat", "nigel", "squirt", "darla", "hank",
+        ];<br />
+        function findNemo(array) { <br />//measure performance<br />
+        let t0 = performance.now(); <br />//loop through array<br />
+        for (let i = 0; i < array.length; i++) { <br />if (array[i] === "nemo")
+        { <br />console.log("Found NEMO!!!"); <br />}<br />
+        } <br />//log the time it takes to loop through. <br />let t1 =
+        performance.now(); <br />console.log("the call to find nemo took " + (t1
+        - t0) + " milliseconds"); } <br />findNemo(nemo);</code
+      >
+    </div>
+  </body>
+</html>
